@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/little-lemon-restaurant/static/css/main.ef70d98c.css",
-    "main.js": "/little-lemon-restaurant/static/js/main.1efbb941.js",
+    "main.js": "/little-lemon-restaurant/static/js/main.bf9dc62b.js",
     "static/js/453.9c3c0823.chunk.js": "/little-lemon-restaurant/static/js/453.9c3c0823.chunk.js",
     "static/media/tiramisú-tradicional-gourmet.jpg": "/little-lemon-restaurant/static/media/tiramisú-tradicional-gourmet.e821291273d1a9c657cf.jpg",
     "static/media/risotto-de-hongos-gourmet.jpg": "/little-lemon-restaurant/static/media/risotto-de-hongos-gourmet.226e098b571d34dbacea.jpg",
@@ -32,11 +32,11 @@
     "index.html": "/little-lemon-restaurant/index.html",
     "static/media/arrowDown.svg": "/little-lemon-restaurant/static/media/arrowDown.8a70b7250e71a1b25016.svg",
     "main.ef70d98c.css.map": "/little-lemon-restaurant/static/css/main.ef70d98c.css.map",
-    "main.1efbb941.js.map": "/little-lemon-restaurant/static/js/main.1efbb941.js.map",
+    "main.bf9dc62b.js.map": "/little-lemon-restaurant/static/js/main.bf9dc62b.js.map",
     "453.9c3c0823.chunk.js.map": "/little-lemon-restaurant/static/js/453.9c3c0823.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef70d98c.css",
-    "static/js/main.1efbb941.js"
+    "static/js/main.bf9dc62b.js"
   ]
 }
