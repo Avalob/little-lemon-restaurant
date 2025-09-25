@@ -1,0 +1,157 @@
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #495e57 #fff;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Karla, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495e57;
+  position: relative;
+  padding-top: 6.25rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: max-content;
+  background-color: #ffffff;
+  z-index: 999;
+}
+
+main {
+  min-height: calc(100vh - 18rem);
+}
+
+a {
+  text-decoration: none;
+  color: #495e57;
+}
+
+h1,
+h2 {
+  line-height: 1;
+  font-family: "Markazi Text";
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+label {
+  width: fit-content;
+  cursor: pointer;
+}
+
+input,
+select {
+  width: 100%;
+  height: 2.8rem;
+  padding: 0 1rem;
+  outline: none;
+  border: 2px solid #e8e8e8;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #495e57;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input:focus,
+select:focus {
+  border: 2px solid #f4ce14;
+  box-shadow: 0 0 0 3px rgba(244, 206, 20, 0.1);
+  transform: translateY(-1px);
+}
+
+input:hover,
+select:hover {
+  border-color: #d0d0d0;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 61.75rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.button-primary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #f4ce14 0%, #f2ca14 100%);
+  color: #495e57;
+  font-weight: 600;
+  border: 2px solid #f4ce14;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background: linear-gradient(135deg, #495e57 0%, #3d4f4a 100%);
+  border-color: #495e57;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.button-primary:active {
+  transform: translateY(0);
+}
+
+/* Estilos para móvil */
+@media only screen and (max-width: 992px) {
+  main {
+    padding-top: 0;
+  }
+}

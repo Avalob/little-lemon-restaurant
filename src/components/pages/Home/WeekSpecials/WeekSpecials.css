@@ -1,0 +1,171 @@
+.week-specials {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 8rem 0;
+}
+
+.week-specials-scroll-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.week-specials-cards {
+  display: flex;
+  gap: 1.2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  flex: 1;
+  cursor: grab;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+}
+
+.week-specials-cards:hover {
+  animation-play-state: paused;
+}
+
+.week-specials-cards.auto-scrolling {
+  position: relative;
+}
+
+.week-specials-cards.auto-scrolling::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #f4ce14, #e6b800);
+  border-radius: 2px;
+  opacity: 0.7;
+  animation: scrollIndicator 2s infinite;
+  z-index: 5;
+}
+
+@keyframes scrollIndicator {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+.week-specials-cards:active {
+  cursor: grabbing;
+}
+
+/* Ocultar scrollbar */
+.week-specials-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.9) 100%);
+  border: 2px solid rgba(244, 206, 20, 0.3);
+  color: #495e57;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.scroll-btn:hover {
+  background: linear-gradient(135deg, #f4ce14 0%, #e6b800 100%);
+  color: #495e57;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 8px 25px rgba(244, 206, 20, 0.4), 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: #f4ce14;
+}
+
+.scroll-btn:active {
+  transform: translateY(-50%) scale(1.05);
+}
+
+.scroll-btn-left {
+  left: -30px;
+}
+
+.scroll-btn-right {
+  right: -30px;
+}
+
+.week-specials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.week-specials-header h2 {
+  line-height: 1;
+  font-family: "Markazi Text";
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+.menu-outline-btn {
+  background: transparent !important;
+  color: #495e57 !important;
+  border: 2px solid #495e57 !important;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-outline-btn:hover,
+.menu-outline-btn:focus {
+  background: #495e57 !important;
+  color: #ffffff !important;
+  border-color: #495e57 !important;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .scroll-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 449px) {
+  .week-specials-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .week-specials-header a {
+    width: max-content;
+  }
+
+  .scroll-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+  }
+  
+  .scroll-btn-left {
+    left: -17px;
+  }
+  
+  .scroll-btn-right {
+    right: -17px;
+  }
+}
+
+@media (max-width: 284px) {
+  .week-specials-header h2 {
+    letter-spacing: -0.5px;
+  }
+}
