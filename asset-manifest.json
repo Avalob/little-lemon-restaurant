@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/little-lemon-restaurant/static/css/main.ef70d98c.css",
+    "main.js": "/little-lemon-restaurant/static/js/main.36a957c2.js",
+    "static/js/453.9c3c0823.chunk.js": "/little-lemon-restaurant/static/js/453.9c3c0823.chunk.js",
+    "static/media/tiramisú-tradicional-gourmet.jpg": "/little-lemon-restaurant/static/media/tiramisú-tradicional-gourmet.e821291273d1a9c657cf.jpg",
+    "static/media/risotto-de-hongos-gourmet.jpg": "/little-lemon-restaurant/static/media/risotto-de-hongos-gourmet.226e098b571d34dbacea.jpg",
+    "static/media/ensalada-griega-gourmet.jpg": "/little-lemon-restaurant/static/media/ensalada-griega-gourmet.faeda676e9847181ee73.jpg",
+    "static/media/pasta-mediterranea-gourmet.jpg": "/little-lemon-restaurant/static/media/pasta-mediterranea-gourmet.98f81e612843836b681e.jpg",
+    "static/media/salmon-nediterraneo-gourmet.jpg": "/little-lemon-restaurant/static/media/salmon-nediterraneo-gourmet.808454bafff9f2ca9b41.jpg",
+    "static/media/bruschetta-gourmet.jpg": "/little-lemon-restaurant/static/media/bruschetta-gourmet.e63ae22c2642e82cd785.jpg",
+    "static/media/cocina.jpg": "/little-lemon-restaurant/static/media/cocina.6073d5da7aa628c4c419.jpg",
+    "static/media/pollo-a-la-parrilla-gourmet.jpg": "/little-lemon-restaurant/static/media/pollo-a-la-parrilla-gourmet.f93c642439db923b0522.jpg",
+    "static/media/pizza-margarita-gourmet.jpg": "/little-lemon-restaurant/static/media/pizza-margarita-gourmet.c351633cb15642ac9867.jpg",
+    "static/media/humus-clasico-gourmet.jpg": "/little-lemon-restaurant/static/media/humus-clasico-gourmet.0f994405c62dd04f7555.jpg",
+    "static/media/lasagna-casera-gourmet.jpg": "/little-lemon-restaurant/static/media/lasagna-casera-gourmet.9c48272b7393f64b52f4.jpg",
+    "static/media/gelato-siciliano-gourmet.jpg": "/little-lemon-restaurant/static/media/gelato-siciliano-gourmet.d0ab6560f692bebfe5e6.jpg",
+    "static/media/Ana.jpg": "/little-lemon-restaurant/static/media/Ana.ffc139159a4ced067057.jpg",
+    "static/media/hermanos.jpg": "/little-lemon-restaurant/static/media/hermanos.993a3878def7c66e44bc.jpg",
+    "static/media/Roberto.jpg": "/little-lemon-restaurant/static/media/Roberto.760a2d1ce70bc3eca156.jpg",
+    "static/media/entrantes.jpg": "/little-lemon-restaurant/static/media/entrantes.355748658eea536f13a6.jpg",
+    "static/media/Diego.jpg": "/little-lemon-restaurant/static/media/Diego.a31eceb01d92d02c054a.jpg",
+    "static/media/Alejandro.jpg": "/little-lemon-restaurant/static/media/Alejandro.f2341697af6ea3185690.jpg",
+    "static/media/logo-white.png": "/little-lemon-restaurant/static/media/logo-white.d09eb2af6c5a2225eedf.png",
+    "static/media/Maria.jpg": "/little-lemon-restaurant/static/media/Maria.002afb0d3e87ec5669ee.jpg",
+    "static/media/Carmen.jpg": "/little-lemon-restaurant/static/media/Carmen.e1798ac925453819301f.jpg",
+    "static/media/Isabel.jpg": "/little-lemon-restaurant/static/media/Isabel.b70fa15669b884b0937a.jpg",
+    "static/media/Carlos.jpg": "/little-lemon-restaurant/static/media/Carlos.0e478df0489b393252e5.jpg",
+    "static/media/postre-de-limon-gourmet.jpg": "/little-lemon-restaurant/static/media/postre-de-limon-gourmet.97e26deaeef189d9e3a7.jpg",
+    "static/media/Form-background-img.jpg": "/little-lemon-restaurant/static/media/Form-background-img.4581c0b576a5f3fc4be9.jpg",
+    "static/media/logo.png": "/little-lemon-restaurant/static/media/logo.e68246686f716ff6e5d8.png",
+    "index.html": "/little-lemon-restaurant/index.html",
+    "static/media/arrowDown.svg": "/little-lemon-restaurant/static/media/arrowDown.8a70b7250e71a1b25016.svg",
+    "main.ef70d98c.css.map": "/little-lemon-restaurant/static/css/main.ef70d98c.css.map",
+    "main.36a957c2.js.map": "/little-lemon-restaurant/static/js/main.36a957c2.js.map",
+    "453.9c3c0823.chunk.js.map": "/little-lemon-restaurant/static/js/453.9c3c0823.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef70d98c.css",
+    "static/js/main.36a957c2.js"
+  ]
+}
