@@ -11,6 +11,27 @@
 
 Little Lemon es una aplicación web moderna desarrollada en **React** como proyecto final del **Meta Frontend Developer Professional Certificate**. Simula el sitio web de un restaurante mediterráneo siguiendo las mejores prácticas enseñadas por Meta. El proyecto incluye un sistema completo de reservas con envío de emails, diseño responsive, navegación intuitiva y características avanzadas de UX/UI.
 
+## 🚀 Deployment
+
+### **🌐 Demo en Vivo**
+> **[🔗 Ver Proyecto en GitHub Pages](https://avalob.github.io/little-lemon-restaurant/)**
+> 
+> *Accede a la versión desplegada del proyecto y prueba todas las funcionalidades en tiempo real.*
+
+### **Build de Producción**
+```bash
+npm run build
+```
+
+### **Deploy a GitHub Pages**
+```bash
+# Instalar gh-pages
+npm install --save-dev gh-pages
+
+# Configurar scripts en package.json
+npm run predeploy
+npm run deploy
+```
 ### 🎯 Objetivos Académicos Cumplidos
 
 - ✅ **Diseño UX/UI profesional** con paleta coherente y efectos modernos
@@ -234,28 +255,6 @@ const public_id = 'FxUWVTdKBWSYfkWEz';
 @media (max-width: 768px)  { /* Tablet */ }
 @media (max-width: 992px)  { /* Desktop pequeño */ }
 @media (min-width: 1200px) { /* Desktop grande */ }
-```
-
-## 🚀 Deployment
-
-### **🌐 Demo en Vivo**
-> **[🔗 Ver Proyecto en GitHub Pages](https://avalob.github.io/little-lemon-restaurant/)**
-> 
-> *Accede a la versión desplegada del proyecto y prueba todas las funcionalidades en tiempo real.*
-
-### **Build de Producción**
-```bash
-npm run build
-```
-
-### **Deploy a GitHub Pages**
-```bash
-# Instalar gh-pages
-npm install --save-dev gh-pages
-
-# Configurar scripts en package.json
-npm run predeploy
-npm run deploy
 ```
 
 ### **Servicios de Hosting**
