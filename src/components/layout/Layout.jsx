@@ -5,8 +5,8 @@ const Layout = ({ children }) => {
   const navLinks = [
     {
       name: "Inicio",
-      path: "/#",
-      hashLink: true,
+      path: "/",
+      hashLink: false,
     },
     {
       name: "Sobre Nosotros",
@@ -25,12 +25,12 @@ const Layout = ({ children }) => {
     },
     {
       name: "Pedir en Línea",
-      path: "/orderOnline",
-      hashLink: false,
+      path: "/#menu",
+      hashLink: true,
     },
     {
       name: "Iniciar Sesión",
-      path: "/login",
+      path: "/reservations",
       hashLink: false,
     },
   ];
