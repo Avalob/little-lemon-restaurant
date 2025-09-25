@@ -9,12 +9,22 @@ import { Link, useLocation } from "react-router-dom";
 const Header = ({ navLinks }) => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const location = useLocation();
-  const [activePath, setActivePath] = useState(
-    localStorage.getItem("activePath") || location.pathname
-  );
+  const [activePath, setActivePath] = useState(() => {
+    // Si estamos en la página principal, siempre mostrar "Inicio" como activo
+    if (location.pathname === "/" || location.pathname === "/home") {
+      return "/";
+    }
+    return localStorage.getItem("activePath") || location.pathname;
+  });
 
   useEffect(() => {
-    setActivePath(localStorage.getItem("activePath") || location.pathname);
+    // Si estamos en la página principal, siempre mostrar "Inicio" como activo
+    if (location.pathname === "/" || location.pathname === "/home") {
+      setActivePath("/");
+      localStorage.setItem("activePath", "/");
+    } else {
+      setActivePath(localStorage.getItem("activePath") || location.pathname);
+    }
   }, [location.pathname]);
 
   // Cerrar menú móvil con tecla Escape
