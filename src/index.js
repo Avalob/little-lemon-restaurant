@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import 'modern-normalize/modern-normalize.css';
 import './index.css';
 import ScrollToTop from "./components/layout/ScrollToTop";
@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter
+    <HashRouter
       future={{
         v7_startTransition: true,
         v7_relativeSplatPath: true
@@ -18,7 +18,7 @@ root.render(
     >
       <ScrollToTop />
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
